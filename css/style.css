@@ -1,0 +1,30 @@
+section {
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.small-btn {
+    padding: 10px;
+    background-color: #065A82;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.small-btn:hover {
+    background-color: #779cab;
+}
+
+.big-btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    font-size: 32px;
+    background-color: #36213E;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

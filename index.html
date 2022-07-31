@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <script type="text/javascript" src="index.js" defer></script>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <section class="nickname">
+                <input
+                    type="text"
+                    id="nickname"
+                    placeholder="Enter your nickname"
+                />
+            </section>
+            <section class="small-buttons">
+                <button
+                    class="small-btn"
+                    id="start-btn"
+                    onclick="clickHandler()"
+                >
+                    Start
+                </button>
+                <button
+                    class="small-btn"
+                    id="best-result-btn"
+                    onclick="showSessionScore()"
+                >
+                    Best result
+                </button>
+                <button
+                    class="small-btn"
+                    id="all-best-result-btn"
+                    onclick="showLocalScore()"
+                >
+                    Best result for all time
+                </button>
+                <button
+                    class="small-btn"
+                    id="clear-best-result-btn"
+                    onclick="clearSessionStorage()"
+                >
+                    Clear best result
+                </button>
+                <button
+                    class="small-btn"
+                    id="clear-all-best-result-btn"
+                    onclick="clearLocalStorage()"
+                >
+                    Clear best result for all time
+                </button>
+            </section>
+            <section class="big-button">
+                <button class="big-btn" id="big-btn">Click me!</button>
+            </section>
+        </div>
+    </body>
+</html>
